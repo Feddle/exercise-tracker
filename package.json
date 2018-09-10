@@ -17,7 +17,7 @@
     "node": "9.x"
   },
   "repository": {
-    "url": "CHANGE THIS"
+    "url": "https://github.com/Feddle/exercise-tracker"
   },
   "license": "MIT",
   "keywords": [
