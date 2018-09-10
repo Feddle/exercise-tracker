@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "FCC Exercise Tracker",
+  "version": "1.0.0",
+  "description": "API for posting and checking exercises",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4",
+    "body-parser": "^1.18.3"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "repository": {
+    "url": "CHANGE THIS"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

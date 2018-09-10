@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise Tracker</title>
+    <meta name="Exercise Tracker" content="Exercise Tracker made by Feddle">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="main">
+      <h1>Exercise Tracker</h1>
+      <p>API for posting and checking exercises</p>
+      <a href="https://github.com/Feddle/URL-Shortener-Microservice">CHANGE THIS TO GITHUB LINK</a>
+      <h2>Create a new user</h2>      
+      <form action="/user" method="post">
+        <input type="text" placeholder="Name*" name="name">
+        <input type="submit" value="Submit">
+      </form>      
+      <p></p>      
+      <h2>Add exercise</h2>
+      <form action="/exercise" method="post">
+        <input type="text" placeholder="userID*" name="userID">
+        <input type="text" placeholder="description*" name="description"> 
+        <input type="text" placeholder="duration* (minutes)" name="duration">
+        <input type="text" placeholder="date (yyyy-mm-dd)" name="date">
+        <input type="submit" value="Submit">
+      </form>
+      <p></p>
+      <h2>Usage</h2>
+      <p>GET <code>/user?userID={userID}</code></p>
+    </div>
+  
+
+    <!--
+    <script src="/client.js"></script>
+    -->
+  </body>
+</html>
